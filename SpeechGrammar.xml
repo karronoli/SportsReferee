@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<grammar version="1.0" xml:lang="ja-JP"
+         root="rootRule"
+         tag-format="semantics/1.0"
+  xmlns="http://www.w3.org/2001/06/grammar">
+  <rule id="rootRule" scope="public">
+    <one-of>
+      <item>
+        <tag>START</tag>
+        <one-of>
+          <item> はじめ </item>
+        </one-of>
+      </item>
+      <item>
+        <tag>END</tag>
+        <one-of>
+          <item> よし </item>
+          <item> ようし </item>
+          <item> よーし </item>
+          <item> 面あり </item>
+          <item> 小手あり </item>
+          <item> 胴あり </item>
+          <item> 勝負あり </item>
+          <item> やめ </item>
+        </one-of>
+      </item>
+    </one-of>
+  </rule>
+</grammar>
